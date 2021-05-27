@@ -9,7 +9,7 @@ pipeline {
           }
         }
 
-        stage('2x🦜🦜1x🦜1x🦜') {
+        stage('2x🦜🦜1x🦜') {
           steps {
             echo '☠️ 🪝 🏴‍ hook aye aye ☠️'
           }
