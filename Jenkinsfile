@@ -11,7 +11,7 @@ pipeline {
 
         stage('2x🦜🦜') {
           steps {
-            echo '☠️ 🪝 🏴‍☠️'
+            echo '☠️ 🪝 🏴‍ hook aye aye☠️'
           }
         }
 
