@@ -9,9 +9,9 @@ pipeline {
           }
         }
 
-        stage('newCommint') {
+        stage('Mess') {
           steps {
-            echo 'To jest nowy komin'
+            echo 'Hello 🏴‍☠️'
           }
         }
 
