@@ -11,10 +11,5 @@ pipeline {
         echo '🏴‍ hook aye aye ☠️'
       }
     }
-    stage('trigers') {
-      steps {
-        cat /etc/crontab
-      }
-    }
   }
 }
