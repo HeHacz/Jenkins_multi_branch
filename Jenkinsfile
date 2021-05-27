@@ -1,17 +1,25 @@
-  pipeline {
+  
+pipeline {
   agent any
+  
   triggers {
-    cron 'H/15 * * * *'
-  }
+            cron 'H/15 * * * *'
+          }
   stages {
-	  steps {
-		echo '☠️ 🪝 🏴‍ hook aye aye ☠️'
-		}
-		stage('triggers') {
-			steps {
+        stage('2x🦜🦜1x🦜') {
+          steps {
+            echo '☠️ 🪝 🏴‍ hook aye aye ☠️'
+          }
+          stage('triggers') {
+          steps {
 				cat /etc/crontab
-			}
-		}
+          }
 
-	}
-}
+        }
+
+      }
+    }
+
+  }
+  
+  
