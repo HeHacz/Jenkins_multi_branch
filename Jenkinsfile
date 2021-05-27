@@ -9,9 +9,9 @@ pipeline {
           }
         }
 
-        stage('Mess') {
+        stage('🦜') {
           steps {
-            echo 'Hello 🏴‍☠️'
+            echo '☠️ 🪝 🏴‍☠️'
           }
         }
 
