@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Print') {
           steps {
-            sh 'echo "Hello World"'
+            sh 'echo "hook aye aye ☠️"'
           }
         }
 
